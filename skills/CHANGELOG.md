@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.0.0](https://github.com/langwatch/langwatch/compare/skills@v1.5.0...skills@v2.0.0) (2026-11-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **sdk:** client.dashboards and langwatch.dashboards now address the new Dashboards API, not the old Reports; use client.analyticsReports / langwatch.analytics_reports for those. MCP Reports tools are renamed platform_*_analytics_report(s).
+
+### Features
+
+* **dashboard:** add REST create and delete for Dashboards boards ([#8896](https://github.com/langwatch/langwatch/issues/8896)) ([fbc1469](https://github.com/langwatch/langwatch/commit/fbc1469027d6ef59c920243f63e2ebaf2264bcf8))
+* **dashboards:** per-widget "Langy traces" setting in the query editor ([#9137](https://github.com/langwatch/langwatch/issues/9137)) ([5e82c1e](https://github.com/langwatch/langwatch/commit/5e82c1ebc1d2dbfda817cf175f3aba62e485a0d8))
+* **dashboards:** widget queries take sources and projects as params ([#9171](https://github.com/langwatch/langwatch/issues/9171)) ([af5a9c3](https://github.com/langwatch/langwatch/commit/af5a9c342951371a1cf547188cff78f9cd50bcc1))
+* **docs:** add a lightweight static docs app ([#8563](https://github.com/langwatch/langwatch/issues/8563)) ([395ed9c](https://github.com/langwatch/langwatch/commit/395ed9c2ce9de4f25497a3b90092a1e647018ac6))
+* **langy:** measured changes, CI as the lab, traces always found, and a judge that reads long traces ([#9536](https://github.com/langwatch/langwatch/issues/9536)) ([a697ebd](https://github.com/langwatch/langwatch/commit/a697ebdf2403dc0aad86e3240fa7e00620d2395d))
+* **navigation:** rename Me to Coding agents, with /me redirects ([#9698](https://github.com/langwatch/langwatch/issues/9698)) ([871c08d](https://github.com/langwatch/langwatch/commit/871c08d13825099e4f7fad4b0af8d69d650a8035))
+* **sdk:** one product per dashboards path; dashboards means the new product everywhere ([#9089](https://github.com/langwatch/langwatch/issues/9089)) ([552534d](https://github.com/langwatch/langwatch/commit/552534d24487441ac5395d91c1af69ed072a0c00))
+
+
+### Bug Fixes
+
+* **langevals:** judges reach a verdict on gpt-6 reasoning models ([#9102](https://github.com/langwatch/langwatch/issues/9102)) ([d7b6238](https://github.com/langwatch/langwatch/commit/d7b623874e55e0b6af4d81ce9671114d54dfb2cc))
+* **langy:** never show sign-in steps for Langy's own key and refuse a blank sandbox key ([#9495](https://github.com/langwatch/langwatch/issues/9495)) ([71c0cca](https://github.com/langwatch/langwatch/commit/71c0cca7a155c46140eed3b5917918e6eaab611b))
+* **langy:** never tell the user to sign in when the sandbox CLI fails ([#8775](https://github.com/langwatch/langwatch/issues/8775)) ([4f2dc72](https://github.com/langwatch/langwatch/commit/4f2dc7299f2cb5620dcd41f4509849863ed68708))
+* **langy:** pick an existing test suite before creating a scenario ([#9158](https://github.com/langwatch/langwatch/issues/9158)) ([42a13b7](https://github.com/langwatch/langwatch/commit/42a13b7f97128db7cf1570ba86b7f238fdc9d33a))
+* **skills:** the CLI skills bundle keeps the login steps Langy's render leaves out ([#9829](https://github.com/langwatch/langwatch/issues/9829)) ([cad58b0](https://github.com/langwatch/langwatch/commit/cad58b0dbe761ba531e33d3900efee0ff1b18b51))
+
 ## [1.5.0](https://github.com/langwatch/langwatch/compare/skills@v1.4.0...skills@v1.5.0) (2026-09-30)
 
 
