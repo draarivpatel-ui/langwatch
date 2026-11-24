@@ -1,5 +1,23 @@
 # Changelog
 
+## [2.1.0](https://github.com/langwatch/langwatch/compare/python-sdk@v2.0.1...python-sdk@v2.1.0) (2026-11-24)
+
+
+### Features
+
+* **experiments:** opt-in CI gate on evaluator failures; TS run() sends every input ([#9501](https://github.com/langwatch/langwatch/issues/9501)) ([eff2dac](https://github.com/langwatch/langwatch/commit/eff2dac43c18163cd5fac4f3cf850a55d9587d8c))
+* **governance:** agent kill switch to stop agents on Databricks, Bedrock and the gateway, with approval and restore ([#9628](https://github.com/langwatch/langwatch/issues/9628)) ([857cc0d](https://github.com/langwatch/langwatch/commit/857cc0dc254c2cc7e1a1bd0096e753086a53648c))
+* **governance:** ingest OCSF AI events from AWS Security Lake ([#9638](https://github.com/langwatch/langwatch/issues/9638)) ([0db90c2](https://github.com/langwatch/langwatch/commit/0db90c242a639ef1adaf89148e816950a430a5c8))
+* **langy:** measured changes, CI as the lab, traces always found, and a judge that reads long traces ([#9536](https://github.com/langwatch/langwatch/issues/9536)) ([a697ebd](https://github.com/langwatch/langwatch/commit/a697ebdf2403dc0aad86e3240fa7e00620d2395d))
+
+
+### Bug Fixes
+
+* **coding-agent:** a Claude Code trace's conversation is its session, and a launcher can declare one session for all its runs ([#9758](https://github.com/langwatch/langwatch/issues/9758)) ([a4bda03](https://github.com/langwatch/langwatch/commit/a4bda03c3bd2933cadfa177d1bb142c20bdcae1b))
+* **dashboards:** widgets and graphs created without a size land readable; /api/graphs takes the grid's bounds ([#9737](https://github.com/langwatch/langwatch/issues/9737)) ([88d08a7](https://github.com/langwatch/langwatch/commit/88d08a739420c0d1c47f279d1087746f7fb3dddb))
+* **gateway:** settle the A2A proxy review follow-ups ([#9824](https://github.com/langwatch/langwatch/issues/9824)) ([5714ee1](https://github.com/langwatch/langwatch/commit/5714ee1d46c4768290d8bb1f233542f22579dfdd))
+* **security:** raise uv floors for nltk, pyasn1, pypdf, filelock, dnspython and joserfc ([#9783](https://github.com/langwatch/langwatch/issues/9783)) ([0e3f51f](https://github.com/langwatch/langwatch/commit/0e3f51f4c40b0f3ac3dc6d2376bf6e91912c8baf))
+
 ## [2.0.1](https://github.com/langwatch/langwatch/compare/python-sdk@v2.0.0...python-sdk@v2.0.1) (2026-11-19)
 
 
