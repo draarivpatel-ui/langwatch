@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.1.1](https://github.com/langwatch/langwatch/compare/langevals@v3.1.0...langevals@v3.1.1) (2026-11-24)
+
+
+### Bug Fixes
+
+* **deps:** raise authlib, litellm and dnspython for today's advisories ([#9120](https://github.com/langwatch/langwatch/issues/9120)) ([828259f](https://github.com/langwatch/langwatch/commit/828259f92eafec9a0d4e1c5ffecab87e4abd2257))
+* **gateway:** record platform provider-key spend in the ledger and stop topic clustering re-embedding ([#9302](https://github.com/langwatch/langwatch/issues/9302)) ([5dacb3f](https://github.com/langwatch/langwatch/commit/5dacb3f3dc85bb2a433a81ad04bbdbfb43a85a19))
+* **langevals:** detect person names written in capitals ([#9213](https://github.com/langwatch/langwatch/issues/9213)) ([4c46055](https://github.com/langwatch/langwatch/commit/4c4605564ca5a354745a6d90619020e73ec3fff8))
+* **langevals:** embed a clustering page's batches concurrently and keep unpriced names ([#9563](https://github.com/langwatch/langwatch/issues/9563)) ([73570b2](https://github.com/langwatch/langwatch/commit/73570b289faa9f55dfb6eb3dcd41b6e4ec9e9d40))
+* **langevals:** judges reach a verdict on gpt-6 reasoning models ([#9102](https://github.com/langwatch/langwatch/issues/9102)) ([d7b6238](https://github.com/langwatch/langwatch/commit/d7b623874e55e0b6af4d81ce9671114d54dfb2cc))
+* **langevals:** skip the capitalised-name second pass for lone capital words ([#9256](https://github.com/langwatch/langwatch/issues/9256)) ([749e9f3](https://github.com/langwatch/langwatch/commit/749e9f3bfb1506e43a7998abcb029db83912e51b))
+* **model-provider:** send each model's output token limit under the name it takes ([#9080](https://github.com/langwatch/langwatch/issues/9080)) ([82e552f](https://github.com/langwatch/langwatch/commit/82e552f5c077cf0f589c100cfc3f55927b2e84f6))
+* **security:** raise uv floors for nltk, pyasn1, pypdf, filelock, dnspython and joserfc ([#9783](https://github.com/langwatch/langwatch/issues/9783)) ([0e3f51f](https://github.com/langwatch/langwatch/commit/0e3f51f4c40b0f3ac3dc6d2376bf6e91912c8baf))
+* **security:** vitest 5.0.5, go-chi, scenario-go grpc, fastmcp-slim and the remaining uv floors ([#8995](https://github.com/langwatch/langwatch/issues/8995)) ([1349269](https://github.com/langwatch/langwatch/commit/1349269a6001241beaf31ed23855808f15a13d7b))
+
 ## [3.1.0](https://github.com/langwatch/langwatch/compare/langevals@v3.0.0...langevals@v3.1.0) (2026-09-12)
 
 ### Features
