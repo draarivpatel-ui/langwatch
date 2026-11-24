@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.4.0](https://github.com/langwatch/langwatch/compare/typescript-sdk@v2.3.0...typescript-sdk@v2.4.0) (2026-11-24)
+
+
+### Features
+
+* **experiments:** opt-in CI gate on evaluator failures; TS run() sends every input ([#9501](https://github.com/langwatch/langwatch/issues/9501)) ([eff2dac](https://github.com/langwatch/langwatch/commit/eff2dac43c18163cd5fac4f3cf850a55d9587d8c))
+
+
+### Bug Fixes
+
+* **gateway:** settle the A2A proxy review follow-ups ([#9824](https://github.com/langwatch/langwatch/issues/9824)) ([5714ee1](https://github.com/langwatch/langwatch/commit/5714ee1d46c4768290d8bb1f233542f22579dfdd))
+* **security:** vitest 5.0.5, go-chi, scenario-go grpc, fastmcp-slim and the remaining uv floors ([#8995](https://github.com/langwatch/langwatch/issues/8995)) ([1349269](https://github.com/langwatch/langwatch/commit/1349269a6001241beaf31ed23855808f15a13d7b))
+* **skills:** the CLI skills bundle keeps the login steps Langy's render leaves out ([#9829](https://github.com/langwatch/langwatch/issues/9829)) ([cad58b0](https://github.com/langwatch/langwatch/commit/cad58b0dbe761ba531e33d3900efee0ff1b18b51))
+
 ## [2.3.0](https://github.com/langwatch/langwatch/compare/typescript-sdk@v2.2.0...typescript-sdk@v2.3.0) (2026-11-23)
 
 
