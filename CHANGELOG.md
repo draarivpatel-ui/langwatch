@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.29.0](https://github.com/langwatch/langwatch/compare/langwatch@v3.28.0...langwatch@v3.29.0) (2026-11-24)
+
+
+### Features
+
+* **data-privacy:** lock in the PII redaction model's Cloud price ([#9816](https://github.com/langwatch/langwatch/issues/9816)) ([3eeb191](https://github.com/langwatch/langwatch/commit/3eeb1910ba4a6f1608718f844576530e111bca56))
+* **experiment:** share a cell budget between active runs for the default concurrency ([#9482](https://github.com/langwatch/langwatch/issues/9482)) ([6b755fe](https://github.com/langwatch/langwatch/commit/6b755feac1535bc4678d027ba01e41b9c6a228fb))
+* **experiments:** opt-in CI gate on evaluator failures; TS run() sends every input ([#9501](https://github.com/langwatch/langwatch/issues/9501)) ([eff2dac](https://github.com/langwatch/langwatch/commit/eff2dac43c18163cd5fac4f3cf850a55d9587d8c))
+* **feature-flag:** turn LangWatchQL and Instant Evals on by default on self-hosted installs ([#9860](https://github.com/langwatch/langwatch/issues/9860)) ([dbf9219](https://github.com/langwatch/langwatch/commit/dbf9219442efdf14beec4033e0feb80a4c2f2baa))
+* **langy:** link admins to the GitHub App setup guide when GitHub is not set up ([#9832](https://github.com/langwatch/langwatch/issues/9832)) ([ac5cf92](https://github.com/langwatch/langwatch/commit/ac5cf924094420592638c635c7ddee9c76676758))
+* **langy:** link organization admins to the GitHub App setup guide ([ac5cf92](https://github.com/langwatch/langwatch/commit/ac5cf924094420592638c635c7ddee9c76676758))
+* **model-provider:** rename LangWatch model ids to a -preview suffix, old ids stay accepted ([#9782](https://github.com/langwatch/langwatch/issues/9782)) ([822e94b](https://github.com/langwatch/langwatch/commit/822e94b1cf43c35ce457f6601a0faccbf7a4f8e9))
+
+
+### Bug Fixes
+
+* **auth:** own screen for an account linked to another user, readable link refusals ([#9823](https://github.com/langwatch/langwatch/issues/9823)) ([a9bc94a](https://github.com/langwatch/langwatch/commit/a9bc94a2c353d0779f57d4a5e3959a35026fea19))
+* **billing:** report Instant Evals usage only to a subscription that prices it ([#9828](https://github.com/langwatch/langwatch/issues/9828)) ([14ffb4a](https://github.com/langwatch/langwatch/commit/14ffb4a1b55562e9b9e1e59af007756a84f94a9a))
+* **experiment:** a subset run shows and counts only its own rows ([#9516](https://github.com/langwatch/langwatch/issues/9516)) ([5c2d403](https://github.com/langwatch/langwatch/commit/5c2d403402048312c4eb7c3a579e945ab727a0a1))
+* **gateway:** settle the A2A proxy review follow-ups ([#9824](https://github.com/langwatch/langwatch/issues/9824)) ([5714ee1](https://github.com/langwatch/langwatch/commit/5714ee1d46c4768290d8bb1f233542f22579dfdd))
+* **governance:** settle the Security Lake ingest follow-ups from the [#9638](https://github.com/langwatch/langwatch/issues/9638) review ([#9842](https://github.com/langwatch/langwatch/issues/9842)) ([0481270](https://github.com/langwatch/langwatch/commit/0481270d969680b5df0b04a5bc3357d25000eb54))
+* **models:** name PII redaction rows on billing events; correct Instant Evals billing and judge docs ([#9849](https://github.com/langwatch/langwatch/issues/9849)) ([de0e337](https://github.com/langwatch/langwatch/commit/de0e337b09a8052ef4e76f5d93f6c90c275c6ef1))
+* **skills:** the CLI skills bundle keeps the login steps Langy's render leaves out ([#9829](https://github.com/langwatch/langwatch/issues/9829)) ([cad58b0](https://github.com/langwatch/langwatch/commit/cad58b0dbe761ba531e33d3900efee0ff1b18b51))
+* **trace,analytics,instant-eval:** read span type from span_analytics, dedup trace versions by superseded set, match event metric keys without a lambda ([#9814](https://github.com/langwatch/langwatch/issues/9814)) ([d86b90e](https://github.com/langwatch/langwatch/commit/d86b90e23eb550f1952d72e7aca8e709c1c57bea))
+
 ## [3.28.0](https://github.com/langwatch/langwatch/compare/langwatch@v3.27.0...langwatch@v3.28.0) (2026-11-23)
 
 
