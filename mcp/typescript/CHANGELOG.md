@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.2.2](https://github.com/langwatch/langwatch/compare/mcp-server@v3.2.1...mcp-server@v3.2.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* **security:** raise JS floors for high alerts (undici, toml, effect, msal-node and more) ([#9784](https://github.com/langwatch/langwatch/issues/9784)) ([914b46c](https://github.com/langwatch/langwatch/commit/914b46c21fd712caa32d0aaba24e5b11595ed59c))
+* **security:** vitest 5.0.5, go-chi, scenario-go grpc, fastmcp-slim and the remaining uv floors ([#8995](https://github.com/langwatch/langwatch/issues/8995)) ([1349269](https://github.com/langwatch/langwatch/commit/1349269a6001241beaf31ed23855808f15a13d7b))
+
 ## [3.2.1](https://github.com/langwatch/langwatch/compare/mcp-server@v3.2.0...mcp-server@v3.2.1) (2026-11-22)
 
 
